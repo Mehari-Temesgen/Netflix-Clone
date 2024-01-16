@@ -3,7 +3,6 @@ import Banner from "./Components/Banner";
 import Nav from "./Components/Nav";
 import requests from "./Components/requests";
 import Row from "./Components/Row";
-
 function App() {
   return (
     <div className="App">
