@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import requests from "./Components/requests";
 import Row from "./Components/Row";
@@ -23,6 +24,7 @@ function App() {
         title="Documentaries Movies"
         fetchUrl={requests.fetchDocumentaries}
       />
+      <Footer />
     </div>
   );
 }
