@@ -3,8 +3,8 @@ import "./Nav.css";
 import netflixLogo from "../image/Netflix.png";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiFillBell } from "react-icons/ai";
-import { AiFillDownCircle } from "react-icons/ai";
-import { AiFillAccountBook } from "react-icons/ai";
+import { FaAngleDown } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 function Nav() {
   const [show, handleShow] = useState(false);
   useEffect(() => {
@@ -42,10 +42,10 @@ function Nav() {
               <AiFillBell />
             </li>
             <li>
-              <AiFillAccountBook />
+              <FaUserAlt />
             </li>
             <li>
-              <AiFillDownCircle />
+              <FaAngleDown />
             </li>
           </ul>
         </div>
